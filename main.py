@@ -28,7 +28,7 @@ class MyModel(Model):
 # Instantiate and build the model
 model = MyModel()
 model.build((None, 28, 28, 1))  # Adjust for the model input shape
-model.load_weights('path_to_your_model_weights')  # Load your trained model weights
+model.load_weights('thing.keras')  # Load your trained model weights
 
 @app.route('/predict', methods=['POST'])
 def predict():
